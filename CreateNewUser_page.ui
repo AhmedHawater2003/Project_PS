@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>285</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="User_name_label">
+     <property name="text">
+      <string>User Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="User_name_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="Password_label">
+     <property name="text">
+      <string>Password:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="Password_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="Email_label">
+     <property name="text">
+      <string>Email:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="Email_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="Phone_number_label">
+     <property name="text">
+      <string>Phone Number:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="Phone_number_input">
+     <property name="maxLength">
+      <number>11</number>
+     </property>
+     <property name="placeholderText">
+      <string>11 Numbers</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="National_ID_label">
+     <property name="text">
+      <string>National ID:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="National_ID_input">
+     <property name="maxLength">
+      <number>14</number>
+     </property>
+     <property name="placeholderText">
+      <string>14 Numbers</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="Admin_password_label">
+     <property name="text">
+      <string>Admin Password:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="Admin_password_input">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Submit_button">
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
